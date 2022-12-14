@@ -1,0 +1,71 @@
+/* .mybtn{
+    background-color: aqua !important;
+    border:1px solid aqua !important;
+}
+.tit{
+    color:red !important;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color:white !important;
+    font-size: 14px !important;
+}
+.navbar .navbar-nav .nav-item .active{
+    color:crimson !important;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color:crimson !important;
+}
+.layout{
+    height: auto;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.mynavbar{
+    background-color: #3e005c !important;
+}
+.navbar .navbar-brand{
+    color: #fbc7ce !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+} 
+.navbar .navbar-nav .nav-item .nav-link {
+    color:white !important;
+    font-size: 16px !important;
+}
+.navbar .navbar-nav .login{
+    border-right: 1px solid gray !important;
+}
+.navbar .navbar-nav .talk{
+    border-radius: 25px !important;
+} 
+.banner-section{
+    background-color: #3e005c !important;
+    height: 100vh !important;
+}
+.banner-section .banner-left h1{
+    font-size: 50px !important;
+    color:#fbc7ce !important;
+    font-weight: bold !important;
+    padding-top: 80px !important;
+}
+.banner-section .banner-left p{
+    font-size: 18px !important;
+    color:white !important;
+   
+}
+.banner-section .banner-left .mybtn{
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+@media screen and (max-width:480px){
+     .banner-section h1{
+         font-size: 30px !important;
+     }
+     .banner-section p{
+        font-size: 16px !important;
+    }
+}
